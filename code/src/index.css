@@ -3,3 +3,50 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.station-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.radio-channel {
+  width: 500px;
+  height: 150px;
+  margin: 10px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.name-audio {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+audio {
+  width: 330px;
+  height: auto;
+  margin: 5px 10px;
+}
+
+img {
+  width: auto;
+  height: 150px;
+}
+
+.image-container {
+  width: 150px;
+  height: 150px;
+  border-right: 1px solid white;
+}
+
+.channel-name {
+  font-family: Arial, sans-serif;
+  color: white;
+  font-size: 55px;
+  margin: 10px;
+}
