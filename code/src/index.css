@@ -30,7 +30,7 @@ body {
 audio {
   width: 330px;
   height: auto;
-  margin: 5px 10px;
+  margin: 8px 10px;
 }
 
 img {
@@ -47,6 +47,6 @@ img {
 .channel-name {
   font-family: Arial, sans-serif;
   color: white;
-  font-size: 55px;
-  margin: 10px;
+  font-size: 25px;
+  margin: 75px auto auto 10px;
 }
