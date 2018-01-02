@@ -27,7 +27,7 @@ class App extends React.Component {
             name={item.name}
             color={item.color}
             liveaudio={item.liveaudio.url} />
-      })}
+    })}
 
       </div>
     )
